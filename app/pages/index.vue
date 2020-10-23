@@ -4,6 +4,7 @@
       <h1 class="title">
         emory
       </h1>
+      <p>エモい</p>
     </div>
   </div>
 </template>
