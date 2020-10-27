@@ -2,31 +2,31 @@
   <div class="container">
     <div>
       <h1 class="title">
-        emory
+        <b>emory</b>
       </h1>
       <b-form>
         <b-form-group
           id="input-group-1"
-          label="ID:"
+          label="Sign in with your emory ID"
           label-for="input-1"
         >
           <b-form-input
             id="input-1"
             required
-            placeholder="Enter ID"
+            placeholder="emory ID"
           ></b-form-input>
         </b-form-group>
 
-        <b-form-group id="input-group-2" label="password:" label-for="input-2">
+        <b-form-group id="input-group-2" label-for="input-2">
           <b-form-input
             id="input-2"
             required
             type="password"
-            placeholder="Enter password"
+            placeholder="password"
           ></b-form-input>
         </b-form-group>
 
-        <b-button @click="login" variant="success">Login</b-button>
+        <b-button @click="login" variant="success">Sign In</b-button>
       </b-form>
     </div>
   </div>
