@@ -4,7 +4,30 @@
       <h1 class="title">
         emory
       </h1>
-      <p>エモい</p>
+      <b-form>
+        <b-form-group
+          id="input-group-1"
+          label="ID:"
+          label-for="input-1"
+        >
+          <b-form-input
+            id="input-1"
+            required
+            placeholder="Enter ID"
+          ></b-form-input>
+        </b-form-group>
+
+        <b-form-group id="input-group-2" label="password:" label-for="input-2">
+          <b-form-input
+            id="input-2"
+            required
+            type="password"
+            placeholder="Enter password"
+          ></b-form-input>
+        </b-form-group>
+
+        <b-button @click="login" variant="success">Login</b-button>
+      </b-form>
     </div>
   </div>
 </template>
@@ -12,7 +35,14 @@
 <script lang="ts">
 import Vue from 'vue'
 
-export default Vue.extend({})
+export default Vue.extend({
+  methods: {
+    login() {
+      console.log("login");
+      
+    }
+  }
+})
 </script>
 
 <style>
