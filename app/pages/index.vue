@@ -12,7 +12,6 @@
         >
           <b-form-input
             id="input-1"
-            required
             placeholder="emory ID"
           ></b-form-input>
         </b-form-group>
@@ -20,7 +19,6 @@
         <b-form-group id="input-group-2" label-for="input-2">
           <b-form-input
             id="input-2"
-            required
             type="password"
             placeholder="password"
           ></b-form-input>
@@ -38,8 +36,8 @@ import Vue from 'vue'
 export default Vue.extend({
   methods: {
     login() {
-      console.log("login");
-      
+      console.log("login")
+      this.$router.push('/home')
     }
   }
 })
