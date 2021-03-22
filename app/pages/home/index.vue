@@ -1,11 +1,8 @@
 <template>
     <b-container class="d-flex justify-content-center">
-        <b-card>
-            <div v-for="url in urls" :key="url">
-                <div class="video">
-                    <iframe width="560" height="315" :src="url" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-            </div>
+        <b-card class="main">
+            <h1>title</h1>
+            <p>body</p>
         </b-card>
     </b-container>
 </template>
@@ -23,7 +20,8 @@ export default Vue.extend({
 </script>
 
 <style>
-.video {
-    margin: 2em;
+.main {
+    margin-top:5%;
+    width: 90%;
 }
 </style>
