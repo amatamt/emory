@@ -1,4 +1,4 @@
-# Emory　〜エモを求めよ。さらば与えられん。〜
+# Emory
 
 ## Build Setup
 
